@@ -1,0 +1,155 @@
+body{
+	background: silver;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+header{
+	background-color: 	#CC3333;
+	border-radius: 10px;
+
+}
+
+ul#menu{
+	margin:0;
+	list-style:none;
+	padding:6px 6px 6px 0;
+	background-color:	#CC3333;	--	
+	background-repeat:repeat;border-width:1px;
+	border-style:solid;border-color:#343434;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	font-size:0;
+	z-index:999;
+	position:relative;
+	display:inline-block;zoom:1;
+	*display:inline;}
+
+ul#menu li{
+	display:block;
+	white-space:nowrap;
+	font-size:0;
+	float:left;}
+
+* html ul#menu li a{
+	display:inline-block;}
+
+ul#menu>li{
+	margin:0 0 0 6px;}
+
+ul#menu a:active, ul#menu a:focus{
+	outline-style:none;}
+
+ul#menu a{
+	display:block;vertical-align:middle;
+	text-align:left;
+	text-decoration:none;
+	font:12px Arial;color:#E7E5E5;
+	cursor:pointer;padding:8px 20px;
+	background-color:;
+	background-repeat:repeat;
+	border-width:0;border-style:solid;
+	border-color:transparent;}
+
+ul#menu li:hover>a,ul#menu li a.pressed{
+	background-color:gray;
+	border-color:#F8F8F8;
+	border-style:solid;color:#333;
+	
+	text-decoration:none;
+	}
+
+ul#menu img{
+	border:none;vertical-align:middle;
+	margin-right:8px;}
+
+ul#menu li.topmenu>a{
+	background-color:;
+	border-width:1px 0 0 0;
+	border-style:solid;
+	border-color:;border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	font:bold 13px "Comic Sans MS",cursive;
+	color:#E7E5E5;text-decoration:none;
+	text-shadow:0 1px 1px #000000;}
+
+ul#menu li.topmenu:hover>a,ul#menu li.topmenu a.pressed{
+	background-color:#55aaff;
+	background-image:-o-linear-gradient(-90deg,rgba(255,255,255,0.77),rgba(85,170,0,0.7)); 
+	background-image:-moz-linear-gradient(-90deg,rgba(255,255,255,0.77),rgba(85,170,0,0.7));   
+	background-image:linear-gradient(180deg,rgba(255,255,255,0.77),rgba(85,170,0,0.7));  
+	background-image:-webkit-linear-gradient(-90deg,rgba(255,255,255,0.77),rgba(85,170,0,0.7));
+	border-style:solid;
+	border-color:#F8F8F8;
+	color:#444444;
+	text-decoration:none;
+	text-shadow:0 1px 0 #C5EAA1;
+	filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#C6FFFFFF,endColorstr=#B355AA00)}
+
+#contenedor{
+	background-color: gray;
+	display: table;
+	border-radius: 10px;
+}
+#contenidos{
+	display: table-row;
+}
+
+#columna1{
+	background: silver;
+	border-radius: 15px;
+	margin: 5px;
+    float: left;
+    border: inset 5px;
+    width: 70%;
+    bottom: 25%;
+}
+#columna1, #columna2 {
+  display: table-cell;
+}
+#columna2{
+	background: silver;
+	
+	margin: 5px;
+    float: left;
+    width: 25%;    
+	border-radius: 15px;
+	border: inset 5px;
+  	bottom: 25%;
+}
+
+
+h1{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	background-color: white;
+	border-radius: 10px;
+	border: inset;
+}
+p{
+	margin-left:15%;
+	margin-right: 15%;
+	text-align: justify;
+	font-family: "Homer Simpson", cursive;
+}
+section article h2{
+	font: 15px black verdana italic;
+}
+footer{
+	background-color: gray;
+	border-radius: 5px;
+	
+}
+hr{
+	background-color:brown;
+	width:96%;
+	height:8px;
+}
+div#contenedor{
+	margin-left: auto;
+	margin-right: auto;
+}
